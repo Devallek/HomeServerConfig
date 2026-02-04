@@ -77,7 +77,7 @@ docker compose version
 
 ---
 
-## 2. Installation de Portainer (optionnel)
+## 2. Usage de Docker sans sudo
 
 ```bash
 sudo usermod -aG docker $USER
