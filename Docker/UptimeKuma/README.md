@@ -1,4 +1,4 @@
-# Services Docker pour héberger uptime-kuma.
+# Services Docker pour héberger uptime-kuma
 
 ## Container et images utilisés
 

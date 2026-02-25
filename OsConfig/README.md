@@ -1,8 +1,7 @@
 # Configuration des services intégrés à l'OS
 
-##### Pour tout PC linux compris, pas forcément le Home Server
-
-##### (Pas de docker ou autres)
+> Pour tout PC linux compris, pas forcément le Home Server
+> (Pas de docker ou autres)
 
 ## Table des matières
 
@@ -18,22 +17,22 @@
 1. Ouvrir un terminal
 2. Se connecter en tant que root :
 
-```bash
-su -l
-```
+    ```bash
+    su -l
+    ```
 
 3. Entrer le mot de passe root
 4. Ajouter l'utilisateur au groupe sudo :
 
-```bash
-usermod -aG sudo <username>
-```
+    ```bash
+    usermod -aG sudo <username>
+    ```
 
 5. Vérifier l'appartenance aux groupes :
 
-```bash
-groups <username>
-```
+    ```bash
+    groups <username>
+    ```
 
 Nécessite surement un reboot sur VM, ou une reconnexion du compte.
 
