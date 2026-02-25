@@ -39,8 +39,10 @@ _Grand point cliquable pour voir comment installer/configurer._
     - **Home Assistant**
     - **Eclipse-Mosquitto** - _Broker MQTT_
   - **JellyFin** - _Médiathèque_
+    - _plusieurs services... voir [README](https://github.com/ProtoxViler/HomeServerConfig/tree/main/Docker/JellyPack) dédié_
   - **N8N** - _Programation par flux avec intégration IA_
   - **Uptime Kuma** - _Monitoring de l'état de serveur.s_
+  - **LeanTime** - _Kanban Project Management_
 
 ## Structure du dépôt
 
@@ -60,4 +62,4 @@ _Grand point cliquable pour voir comment installer/configurer._
 
 ## Ressources
 
-- Guide Samba utilisé : https://www.it-connect.fr/serveur-de-fichiers-debian-installer-et-configurer-samba-4/
+- Guide Samba utilisé : <https://www.it-connect.fr/serveur-de-fichiers-debian-installer-et-configurer-samba-4/>

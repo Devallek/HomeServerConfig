@@ -157,3 +157,4 @@ Ce fichier sera ensuite référencé dans les stacks Portainer.
 - [**Domotique**](../Docker/Domotique/) — _Home Assistant, MQTT, Node-RED_
 - [**Jellyfin**](../Docker/Jellyfin/) — _Médiathèque_
 - [**Uptime Kuma**](../Docker/UptimeKuma/) — _Monitoring de l'état des serveurs_
+- [**LeanTime**](../Docker/LeanTime/) — _Kanban Project Management_
