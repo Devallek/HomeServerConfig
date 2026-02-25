@@ -1,4 +1,4 @@
-# Services Docker pour héberger un Wordpress et sa base de donnée.
+# Services Docker pour héberger un Wordpress et sa base de donnée
 
 ## Container et images utilisés
 
@@ -7,6 +7,7 @@
 - phpMyAdmin
 
 ## Port mapping (Sortant)
+
 - **Wordpress** : 80
 - **PHPMyAdmin** : 81
 
@@ -17,4 +18,3 @@
 ## Information
 
 Nécessite [N8N](../N8N/) dans mon cas pour le portfolio.
-

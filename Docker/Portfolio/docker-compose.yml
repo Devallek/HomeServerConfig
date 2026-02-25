@@ -1,5 +1,6 @@
 services:
   db:
+    container_name: PF_DB
     image: mysql:8.0
     restart: unless-stopped
     environment:
@@ -13,6 +14,7 @@ services:
       - portfolio_network
 
   wordpress:
+    container_name: PF_Wordpress
     image: wordpress:latest
     depends_on:
       - db
@@ -30,6 +32,7 @@ services:
       - portfolio_network
 
   phpmyadmin:
+    container_name: PF_PHPMyAdmin
     image: phpmyadmin/phpmyadmin
     depends_on:
       - db

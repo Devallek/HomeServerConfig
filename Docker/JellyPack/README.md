@@ -37,4 +37,4 @@ De plus ce stack n'a jamais été réellement abouti et n'est jamais rentré en 
 - **Prowlarr** : `/config`
 - **Radarr** : `/config`, `/movies`
 - **Sonarr** : `/config`, `/tv`
-- **Flaresolverr** : `/config`  
+- **Flaresolverr** : `/config`

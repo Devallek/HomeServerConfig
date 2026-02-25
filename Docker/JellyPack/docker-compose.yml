@@ -1,6 +1,6 @@
 services:
   jellyfin:
-    container_name : Jellyfin
+    container_name : JP_Jellyfin
     image: jellyfin/jellyfin
     ports :
       - 8096:8096
@@ -14,7 +14,7 @@ services:
       - jellypack_network
 
   jackett:
-    container_name: jackett
+    container_name: JP_Jackett
     image: linuxserver/jackett:latest
     ports:
       - 9117:9117
@@ -32,7 +32,7 @@ services:
     
 
   prowlarr:
-    container_name: prowlarr
+    container_name: JP_Prowlarr
     image: ghcr.io/hotio/prowlarr:release
     ports:
       - "9696:9696"
@@ -48,7 +48,7 @@ services:
     restart: unless-stopped
 
   radarr:
-    container_name: radarr
+    container_name: JP_Radarr
     image: lscr.io/linuxserver/radarr:latest
     ports:
       - 7878:7878
@@ -65,7 +65,7 @@ services:
     restart: unless-stopped
         
   sonarr:
-    container_name: sonarr
+    container_name: PP_Sonarr
     image: lscr.io/linuxserver/sonarr:latest
     ports:
       - 8989:8989
@@ -82,7 +82,7 @@ services:
     restart: unless-stopped
 
   flaresolverr:
-    container_name: flaresolverr
+    container_name: JP_Flaresolverr
     image: 21hsmw/flaresolverr:nodriver
     ports:
       - 8191:8191
