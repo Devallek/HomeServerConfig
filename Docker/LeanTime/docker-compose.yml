@@ -1,0 +1,41 @@
+services:
+  mysql:
+    container_name: LT_MySQL
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: leantime
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - leantime-net
+
+  leantime:
+    container_name: LT_LeanTime
+    image: leantime/leantime:latest
+    depends_on:
+      - mysql
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      LEAN_DB_HOST: mysql_leantime
+      LEAN_DB_USER: admin
+      LEAN_DB_PASSWORD: ${MYSQL_PASSWORD}
+      LEAN_DB_DATABASE: leantime
+      LEAN_EMAIL_RETURN: ${LEAN_EMAIL_RETURN}
+    volumes:
+      - leantime_data:/var/www/html/public/uploads
+    networks:
+      - leantime-net
+
+volumes:
+  db_data:
+  leantime_data:
+
+networks:
+  leantime-net:
+    driver: bridge
