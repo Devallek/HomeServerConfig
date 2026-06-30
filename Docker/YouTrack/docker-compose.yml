@@ -1,7 +1,7 @@
 services:
   youtrack:
     container_name: YT_YouTrack
-    image: jetbrains/youtrack:latest
+    image: jetbrains/youtrack:2026.2.16593
     ports:
       - 8080:8080
     volumes:
