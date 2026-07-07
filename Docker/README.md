@@ -164,3 +164,4 @@ Ce fichier sera ensuite référencé dans les stacks Portainer.
 - [**Jellyfin**](../Docker/Jellyfin/) — _Médiathèque_
 - [**Uptime Kuma**](../Docker/UptimeKuma/) — _Monitoring de l'état des serveurs_
 - [**LeanTime**](../Docker/LeanTime/) — _Kanban Project Management_
+- [**Youtrack**](../Docker/Youtrack/) — _Gestion de projet et suivi des bugs_
