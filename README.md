@@ -43,6 +43,7 @@ _Grand point cliquable pour voir comment installer/configurer._
   - **N8N** - _Programation par flux avec intégration IA_
   - **Uptime Kuma** - _Monitoring de l'état de serveur.s_
   - **YouTrack** - _Project Management_
+  - **MailSRV** - _Serveur Mail_
 
 ## Structure du dépôt
 
