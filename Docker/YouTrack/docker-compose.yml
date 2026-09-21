@@ -5,14 +5,14 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - youtrack_data:/opt/youtrack/data
-      - youtrack_conf:/opt/youtrack/conf
-      - youtrack_logs:/opt/youtrack/logs
-      - youtrack_backups:/opt/youtrack/backups
+      - yt_data:/opt/youtrack/data
+      - yt_conf:/opt/youtrack/conf
+      - yt_logs:/opt/youtrack/logs
+      - yt_backups:/opt/youtrack/backups
     restart: unless-stopped
 
 volumes:
-  youtrack_data:
-  youtrack_conf:
-  youtrack_logs:
-  youtrack_backups:
+  yt_data:
+  yt_conf:
+  yt_logs:
+  yt_backups:
